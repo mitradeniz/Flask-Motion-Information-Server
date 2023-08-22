@@ -15,9 +15,9 @@ print(f"Port {port} dinleniyor...")
 
 app = Flask(__name__)
 
-hareket_bilgisi = "Hareket bilgisi yok."
+hareket_bilgisi = "None movement info."
 
-@app.route('/password/hareketbilgisi', methods=['GET'])
+@app.route('/password/movementinfo', methods=['GET'])
 def hareketBilgisi():
 	# Soket oluştur
 	time.sleep(2)
@@ -35,7 +35,7 @@ def hareketBilgisi():
 	elif data == "0":
 		return str(data)
 	else:
-		return "Hareket bilgisi yok" + str(data)
+		return "No movement info" + str(data)
 
 
 if __name__ == '__main__':
