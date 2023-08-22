@@ -11,7 +11,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((host, port))
 s.listen(1)
 """
-print(f"Port {port} dinleniyor...")
+print(f"Port {port} listening...")
 
 app = Flask(__name__)
 
