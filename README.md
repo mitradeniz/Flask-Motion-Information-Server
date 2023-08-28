@@ -40,5 +40,5 @@ mitradeniz
 
 This project is licensed under the [MIT License](LICENSE).
 
-For more details, please refer to the [GitHub repository:] [(https://github.com/mitradeniz/Flask-Motion-Information-Server)].
+For more details, please refer to the [GitHub repository:](https://github.com/mitradeniz/Flask-Motion-Information-Server).
 
